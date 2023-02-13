@@ -372,7 +372,7 @@ footer {
 
 
 /* ALL PROJECT PAGE STYLING */
-.project-hero {
+.project-hero, .contact-hero {
     background-image: linear-gradient(to bottom, #ffb300de, #ffb300de),
     url(/assets/project-bg.jpg);
 
@@ -382,6 +382,14 @@ footer {
     padding: 100px 5%;
     text-align: center;
 
+}
+
+.contact-hero {
+    background-image: linear-gradient(to bottom, #ffb300de, #ffb300de),
+    url(/assets/contact-bg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project-hero .project-text p {
@@ -532,6 +540,10 @@ form .sec-btn:hover {
     }
 
     label {
+        font-size: 14px;
+    }
+
+    .box {
         font-size: 14px;
     }
 }
