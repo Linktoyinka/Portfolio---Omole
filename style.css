@@ -384,7 +384,7 @@ footer {
 
 }
 
-.project-text p {
+.project-hero .project-text p {
     color: var(--white);
     font-weight: bold;
 }
