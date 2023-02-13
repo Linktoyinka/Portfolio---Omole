@@ -340,7 +340,8 @@ nav li {
 .socials {
     display: flex;
     gap: 5%;
-    
+
+    margin-top: 10px;
 }
 
 .socials i {
@@ -349,7 +350,7 @@ nav li {
 }
 
 .socials i:hover {
-    color: var(--light-grey);
+    color: var(--white);
 }
 
 /* FOOTER */
