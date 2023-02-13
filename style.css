@@ -23,6 +23,10 @@ body {
 }
 
 /* DEFAULT */
+html {
+    scroll-behavior: smooth;
+}
+
 section, footer {
     padding: 25px 10%;
 }
@@ -366,6 +370,24 @@ footer {
     color: var(--grey);
 }
 
+
+/* ALL PROJECT PAGE STYLING */
+.project-hero {
+    background-image: linear-gradient(to bottom, #ffb300de, #ffb300de),
+    url(/assets/project-bg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 100px 5%;
+    text-align: center;
+
+}
+
+.project-text p {
+    color: var(--white);
+    font-weight: bold;
+}
 
 
 
