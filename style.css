@@ -389,6 +389,107 @@ footer {
     font-weight: bold;
 }
 
+/* CONTACT PAGE */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 70px 0;
+}
+
+.c-page {
+    /* background-color: #FFB400; */
+    width: 70%;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    padding: 0;
+}
+
+.c-page .left {
+    width: 50%;
+    background-color: var(--white);
+    padding: 3% 2%;
+    border-radius: 5px 0 0 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin: 3% 0 1% 0;
+    color: var(--light-grey);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.box {
+    padding: 2%;
+    font-size: 16px;
+    border: 2px solid rgba(128, 128, 128, 0.281);
+    outline: none;
+    border-radius: 5px;
+    color: #767676;
+}
+
+.box2 {
+    resize: none;
+    width: 100%;
+    aspect-ratio: 4/1;
+}
+
+form .sec-btn {
+    margin-top: 5%;
+}
+
+form .sec-btn:hover {
+    transform: unset;
+    transition: unset;
+}
+
+.c-page .right {
+    width: 50%;
+    background-color: #ffb30067;
+    border-radius: 0 5px 5px 0;
+    padding: 3% 2%;
+}
+
+.c-page .right img {
+    width: 90%;
+}
+
+.c-content {
+    text-align: center;
+}
+
+.c-content p, .c-socials p, .c-content .mail {
+    color: var(--white);
+}
+
+.c-socials {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.c-socials .socials {
+    justify-content: center;
+}
+
+.c-socials .socials i {
+    color: var(--white);
+}
+
+.mail2 {
+    color: var(--white);
+    font-size: 20px;
+}
+
 
 
 @media screen and (max-width: 1050px) {
@@ -398,6 +499,10 @@ footer {
 
     .mail {
         font-size: 23px;
+    }
+
+    .c-page {
+        width: 80%;
     }
 }
 
@@ -412,6 +517,22 @@ footer {
 
     .mail {
         font-size: 20px;
+    }
+
+    .c-page {
+        width: 85%;
+    }
+
+    .mail2 {
+        font-size: 16px;
+    }
+
+    .c-socials .socials i {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 14px;
     }
 }
 
@@ -446,6 +567,18 @@ footer {
 
     .mail {
         font-size: 17px;
+    }
+
+    .c-page {
+        width: 85%;
+    }
+
+    .c-socials .socials i {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 13px;
     }
 }
 
@@ -493,6 +626,29 @@ footer {
     .mail {
         font-size: 20px;
     }
+
+    .c-page {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .c-page .right, .c-page .left {
+        width: 100%;
+    }
+    
+    .c-page .left {
+        order: 1;
+        padding: 20px 10%;
+    }
+
+    .c-page .left h2, .c-page .left p {
+        text-align: center;
+    }
+
+    main {
+        padding: 0;
+    }
+
 }
 
 
