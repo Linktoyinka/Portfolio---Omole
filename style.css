@@ -353,12 +353,6 @@ nav li {
     color: var(--light-grey);
 }
 
-/* .contact .left .left {
-    width: 5px;
-    height: 100%;
-    background-color: var(--white);
-} */
-
 /* FOOTER */
 footer {
     padding: 5px 7%;
@@ -414,30 +408,6 @@ footer {
     h1 {
         font-size: 40px;
     }
-    
-    /* h2 {
-        font-size: 32px;
-    } */
-    
-    /* h4 {
-        font-size: 18px;
-    }
-    
-    p {
-        font-size: 16px;
-    }
-    
-    a {
-        font-size: 14px;
-    } */
-
-    /* .sec-btn {
-        font-size: 16px;
-    }
-    
-    .pri-btn {
-        font-size: 16px;
-    } */
 }
 
 
@@ -464,30 +434,6 @@ footer {
     h1 {
         font-size: 40px;
     }
-    
-    /* h2 {
-        font-size: 32px;
-    } */
-    
-    /* h4 {
-        font-size: 18px;
-    }
-    
-    p {
-        font-size: 16px;
-    }
-    
-    a {
-        font-size: 14px;
-    } */
-
-    /* .sec-btn {
-        font-size: 16px;
-    }
-    
-    .pri-btn {
-        font-size: 16px;
-    } */
 }
 
 
@@ -560,4 +506,12 @@ footer {
     .pri-btn {
         font-size: 14px;
     }
+}
+
+@media screen and (max-width: 335px) {
+
+    h1 {
+        font-size: 28px;
+    }
+    
 }
