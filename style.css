@@ -20,6 +20,7 @@ body {
     --light-grey: #767676;
     --white: #ffffff;
     --off-white: #E4E6EB;
+    --mes: #ffb30067;
 }
 
 /* DEFAULT */
@@ -314,9 +315,10 @@ nav li {
 
 /* CONTACT SECTION */
 .contact {
-    background-color: var(--light-grey);
-    display: flex;
-    justify-content: space-between;
+    background-color: var(--mes);
+    /* display: flex; */
+    /* justify-content: space-between; */
+    text-align: center;
 }
 
 .contact .left, .contact .right {
