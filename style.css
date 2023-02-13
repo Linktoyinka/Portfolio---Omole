@@ -125,11 +125,12 @@ header {
 }
 
 .logo {
-    width: 20%;
+    width: 15%;
 }
 
 .logo img {
-    width: 100%;
+    width: 100%;    
+    cursor: pointer;
 }
 
 nav ul {
@@ -161,6 +162,7 @@ nav li {
     direction: ltr;
     right: 100%;
     transition: 0.4s;
+    top: 45px;
 }
 
 .nav-mobile.is-active{
@@ -308,7 +310,7 @@ nav li {
 
 /* CONTACT SECTION */
 .contact {
-    background-color: var(--yello);
+    background-color: var(--light-grey);
     display: flex;
 }
 
@@ -430,6 +432,9 @@ footer {
         width: 48%;
     }
 
+    .card:hover {
+        box-shadow: none;
+    }
 
     h1 {
         font-size: 40px;
@@ -471,6 +476,10 @@ footer {
     .hero {
         padding: 50px 5%;
     }
+
+    .logo {
+        width: 35%;
+    }
 }
 
 
@@ -508,10 +517,25 @@ footer {
     }
 }
 
+@media screen and (max-width: 385px) {
+    .nav-mobile {
+        top: 40px;
+    }
+
+    .logo {
+        width: 40%;
+    }
+    
+}
+
 @media screen and (max-width: 335px) {
 
     h1 {
         font-size: 28px;
+    }
+
+    .nav-mobile {
+        top: 35px;
     }
     
 }
