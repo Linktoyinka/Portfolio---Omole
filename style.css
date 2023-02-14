@@ -474,6 +474,10 @@ form .sec-btn:hover {
     width: 90%;
 }
 
+.c-page .left p {
+    margin: 15px 0;
+}
+
 .c-content {
     text-align: center;
 }
