@@ -504,6 +504,11 @@ form .sec-btn:hover {
     font-size: 20px;
 }
 
+.pcc {
+    color: var(--grey);
+    margin: 15px 0;
+}
+
 
 
 @media screen and (max-width: 1050px) {
