@@ -241,6 +241,12 @@ nav li {
     width: 50%;
 }
 
+.hero .left h2 {
+    /* font-size: 55px; */
+    font-weight: 500;
+    font-size: 25px;
+}
+
 .span {
     color: var(--light-yellow);
 }
@@ -814,6 +820,10 @@ form .sec-btn:hover {
 
     .lang ul li p {
         font-size: 12px;
+    }
+
+    .hero .left h2 {
+        font-size: 20px;
     }
 }
 
