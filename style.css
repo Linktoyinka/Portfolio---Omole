@@ -284,15 +284,14 @@ nav li {
 }
 
 /* PROJECT SECTION */
-.project {
-    text-align: center;
-}
 
 .project h2 {
+    text-align: center;
     margin-top: 50px;
 }
 
-.project p {
+.project .project-text p, .project p {
+    text-align: center;
     margin: 25px 0;
 }
 
@@ -304,6 +303,7 @@ nav li {
 }
 
 .card {
+    text-align: center;
     background-color: var(--white);
     width: 30%;
     border-radius: 5px;
@@ -363,10 +363,16 @@ nav li {
     width: 100%;
     aspect-ratio: 4/2;
     object-fit: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .project button {
     margin: 30px 0;
+}
+
+.view-all {
+    text-align: center;
 }
 
 /* CONTACT SECTION */
@@ -595,6 +601,12 @@ form .sec-btn:hover {
     }
 }
 
+@media screen and (max-width: 850px) {
+    .card {
+        width: 48%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .hero .right, .hero .left {
         width: 100%;
@@ -670,8 +682,36 @@ form .sec-btn:hover {
     }
     
     .card {
-        width: 48%;
+        text-align: left;
+        width: 100%;
+        display: flex;
+        gap: 3%;
+        padding: 3% 2.5%;
     }
+
+    .card-content {
+        padding: 0 0;
+        width: 67%;
+    }
+
+    .card-img {
+        width: 30%;
+    }
+
+    .card-img a {
+        width: 100%;
+    }
+    .card-img img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 5px;
+    }
+
+    .project p {
+        text-align: unset;
+        margin: 1px 0;
+    }
+    
 
     .card:hover {
         box-shadow: none;
