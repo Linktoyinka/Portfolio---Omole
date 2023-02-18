@@ -26,42 +26,16 @@ html {
     --mes: #ffb30067;
 }
 
-/* DEFAULT */
-/* html {
-    scroll-behavior: smooth;
+
+/* HERO SECTION */
+
+.project-content-hero {
+    background-image: linear-gradient(to bottom, #ffb300de, #ffb300de),
+    url(/assets/project-pictures/projects-hero-bg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-section, footer {
-    padding: 25px 10%;
-}
-
-h1 {
-    font-weight: 700;
-    /* line-height: 59px; */
-    /* font-size: 48px;
-    color: var(--grey);
-}  */
-
-/* h2 {
-    font-size: 32px;
-    font-weight: 700;
-    /* line-height: 40px; */
-    /* color: var(--grey);
-    
-} */
-
-/* h4 {
-    font-weight: 600;
-    /* line-height: 22px; */
-    /* font-size: 20px; */
-
-    /* color: var(--grey); */
-
-/* } */
-
-/* .introduction {
-    text-align: center;
-} */
 
 
 

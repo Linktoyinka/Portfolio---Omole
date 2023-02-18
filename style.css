@@ -405,7 +405,7 @@ footer {
 
 
 /* ALL PROJECT PAGE STYLING */
-.project-hero, .contact-hero {
+.project-hero, .contact-hero, .project-content-hero {
     background-image: linear-gradient(to bottom, #ffb300de, #ffb300de),
     url(/assets/project-bg.jpg);
 
@@ -425,7 +425,9 @@ footer {
     background-size: cover;
 }
 
-.project-hero .project-text p, .contact-hero .project-text p {
+.project-hero .project-text p,
+.contact-hero .project-text p,
+.project-content-hero .project-text p {
     color: var(--white);
     font-weight: bold;
 }
