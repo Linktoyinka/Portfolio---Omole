@@ -65,6 +65,12 @@ article span {
     max-width: max-content;
 }
 
+figcaption {
+    font-style: italic;
+    color: var(--light-grey);
+    font-size: small;
+}
+
 hr {
     margin: 20px 0;
     /* background-color: #FFB400; */

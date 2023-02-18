@@ -692,7 +692,15 @@ form .sec-btn:hover {
     .card-content {
         padding: 0 0;
         width: 67%;
+
+        display: flex;
+        flex-direction: column;
     }
+
+    .lang {
+        order: 3;
+    }
+
 
     .card-img {
         width: 30%;
