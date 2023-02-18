@@ -3,13 +3,12 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    
+    box-sizing: border-box;   
 }
 
 body {
     background-color: var(--off-white);
+    font-family: 'Inter', sans-serif;
 }
 
 /* COLOR DEFINITION */
@@ -432,7 +431,7 @@ footer {
 }
 
 /* CONTACT PAGE */
-main {
+.main-contact {
     display: flex;
     justify-content: center;
     align-items: center;
