@@ -13,8 +13,8 @@ body {
 
 /* COLOR DEFINITION */
 :root {
-    --yello: #FFB400;
-    --light-yellow: #FFB400F2;
+    --yello: #af7f0d;
+    --light-yellow: #a87d19;
     --grey: #2B2B2B;
     --light-grey: #767676;
     --white: #ffffff;
@@ -81,7 +81,7 @@ a span {
     font-weight: 500;
     line-height: 19px;
     font-size: 16px;
-    color: var(--grey);
+    color: var(--white);
     cursor: pointer;
 
     background-color: var(--yello);
@@ -94,7 +94,7 @@ a span {
     font-weight: 500;
     line-height: 19px;
     font-size: 16px;
-    color: var(--grey);
+    color: var(--yello);
     cursor: pointer;
 
     background-color: var(--white);
@@ -103,7 +103,7 @@ a span {
 }
 
 .pri-btn:hover, .sec-btn:hover {
-    transform: scale(1.1);
+    transform: translatey(-5px);
     transition: 1s;
 }
 
@@ -423,7 +423,7 @@ footer {
 
 /* ALL PROJECT PAGE STYLING */
 .project-hero, .contact-hero, .project-content-hero {
-    background-image: linear-gradient(to bottom, #ffb300de, #ffb300de),
+    background-image: linear-gradient(to bottom, #af7e0dc7, #af7e0dc7),
     url(/assets/project-bg.jpg);
 
     background-repeat: no-repeat;
@@ -435,7 +435,7 @@ footer {
 }
 
 .contact-hero {
-    background-image: linear-gradient(to bottom, #ffb300de, #ffb300de),
+    background-image: linear-gradient(to bottom, #af7e0dc7, #af7e0dc7),
     url(/assets/contact-bg.jpg);
 
     background-repeat: no-repeat;

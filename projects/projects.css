@@ -17,8 +17,8 @@ html {
 
 /* COLOR DEFINITION */
 :root {
-    --yello: #FFB400;
-    --light-yellow: #FFB400F2;
+    --yello: #af7f0d;
+    --light-yellow: #a87d19;
     --grey: #2B2B2B;
     --light-grey: #767676;
     --white: #ffffff;
@@ -30,7 +30,7 @@ html {
 /* HERO SECTION */
 
 .project-content-hero {
-    background-image: linear-gradient(to bottom, #ffb300de, #ffb300de),
+    background-image: linear-gradient(to bottom, #af7e0dc7, #af7e0dc7),
     url(/assets/project-pictures/projects-hero-bg.jpg);
 
     background-repeat: no-repeat;
@@ -50,6 +50,10 @@ article h2 {
 
 article ul {
     margin-left: 35px;
+}
+
+article ul li::marker {
+    color: var(--yello);
 }
 
 article span {
