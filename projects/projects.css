@@ -37,6 +37,35 @@ html {
     background-size: cover;
 }
 
+.airbnb {
+    background-image: linear-gradient(to bottom, #af7e0dc7, #af7e0dc7),
+    url(/assets/project-pictures/airbnbbg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-image {
+    padding: 5% 0%;
+    margin: 50px 10% 0 10%;
+
+    background-image: linear-gradient(to bottom, #0000009d, #0000009d), url(/assets/project-pictures/projects-hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.airbnb-pro {
+    padding: 5% 0%;
+    margin: 50px 10% 0 10%;
+
+    background-image: linear-gradient(to bottom, #0000009d, #0000009d), url(/assets/project-pictures/airbnbbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 
@@ -65,7 +94,7 @@ article span {
 }
 
 .article-img img {
-    width: 100%;
+    width: 80%;
     max-width: max-content;
 }
 
@@ -83,15 +112,8 @@ hr {
 }
 
 /* PROJECT IMAGE */
-.project-image {
-    padding: 5% 0%;
-    margin: 50px 10% 0 10%;
 
-    background-image: linear-gradient(to bottom, #0000009d, #0000009d), url(/assets/project-pictures/projects-hero-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 
 .project-image p {
     text-align: center;
